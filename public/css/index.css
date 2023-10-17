@@ -1,12 +1,14 @@
-h1{
+h1 {
     color: #6b4343;
     text-align: center;
 }
-.parent{
+
+.parent {
     display: flex;
     justify-content: space-between;
 }
-body>div>div{
+
+body>div>div {
     height: 60vh;
     width: 40vw;
     background-color: #dccfcf;
@@ -14,7 +16,14 @@ body>div>div{
     justify-content: center;
     align-items: center;
 }
-button{
+
+button {
     margin-top: 30vh;
     height: 2vh;
+}
+
+.right {
+    display: flex;
+    align-items: flex-start;
+    overflow-y: scroll;
 }
