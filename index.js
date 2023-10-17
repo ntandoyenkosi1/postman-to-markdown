@@ -30,15 +30,14 @@ ${body?.raw}
             return `/${x}`
         })).join("")
         return `##### **${method}** ${name}
-    
-    
+
 \`${path}\`
 
 ${body ? `**Body** ${options.mode} (${options.language})
-${body}` : ``}
+${body}` : ""}
 `}).join("")
     return `# ${x.name}
 ${y}`
 })).join("")}`
 
-fs.writeFileSync("abc.md", finalFile)
+fs.writeFileSync("test.md", finalFile)
