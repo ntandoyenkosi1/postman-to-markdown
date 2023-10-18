@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Node.js project allows you to convert a Postman JSON file to markdown format. It provides a user interface for easy conversion and also allows users to download the final markdown file or copy to clipboard. The application is deployed on Google App Engine for accessibility.
+This Node.js project allows you to convert a Postman JSON file to markdown format. It provides a user interface for easy conversion and also allows users to download the final markdown file or copy to clipboard. The application is deployed on Google Cloud Run for accessibility.
 
 - [Features](#features)
 - [Supported JSON versions](#supported-json-versions)
@@ -16,7 +16,7 @@ This Node.js project allows you to convert a Postman JSON file to markdown forma
 - Convert Postman JSON files to markdown.
 - User-friendly web interface.
 - Download the converted markdown file.
-- Accessible via Google App Engine for online usage.
+- Accessible via Google Cloud Run for online usage.
 
 ## Supported JSON Versions
 
@@ -74,9 +74,9 @@ You can use this application both locally and online.
 
 ### Online Usage
 
-If you prefer to use the application online, simply visit the deployed instance on Google App Engine at the following URL:
+If you prefer to use the application online, simply visit the deployed instance on Google Cloud Run at the following URL:
 
-[Google App Engine URL](<to be replaced soon>)
+[Google Cloud Run URL](https://postman-to-markdown-cck37mrz7a-ue.a.run.app/)
 
 You can then use the web interface to upload your Postman JSON file and convert it to markdown. After conversion, you can download the markdown file for your use.
 
