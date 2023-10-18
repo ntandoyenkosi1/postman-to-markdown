@@ -2,9 +2,6 @@ const fs = require("fs")
 function convertJSONtoMarkDown(file) {
     //const file = JSON.parse(fs.readFileSync("api.json", { encoding: "utf8" }))
     let finalFile = ""
-    console.log(file)
-    // file=JSON.parse(file)
-    // console.log(file)
     finalFile = `# ${file.info.name}
 ${file.info.description}
 

@@ -1,4 +1,5 @@
-h1 {
+h1,
+h2 {
     color: #6b4343;
     text-align: center;
 }
@@ -19,11 +20,30 @@ body>div>div {
 
 button {
     margin-top: 30vh;
-    height: 2vh;
+    max-height: 5vh;
+    background-color: #b16c6c;
+    color: white;
+    padding: 1vh 1vw 1vh 1vw;
+    border-radius: 2vh;
 }
 
 .right {
     display: flex;
     align-items: flex-start;
     overflow-y: scroll;
+}
+
+.actions {
+    display: none;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.actions input {
+    max-height: 5vh;
+    background-color: #b16c6c;
+    color: white;
+    padding: 1vh 1vw 1vh 1vw;
+    border-radius: 2vh;
 }
