@@ -1,6 +1,5 @@
 const fs = require("fs")
 function convertJSONtoMarkDown(file) {
-    //const file = JSON.parse(fs.readFileSync("api.json", { encoding: "utf8" }))
     let finalFile = ""
     finalFile = `# ${file.info.name}
 ${file.info.description}
@@ -24,10 +23,15 @@ ${file.item.map((x => {
 ${body?.raw}
 \`\`\`\``
             }
-
-            let path = z.request?.url?.path.map((x => {
-                return `/${x}`
-            })).join("")
+            let path = null
+            try{
+                path=z.request?.url?.path.map((x => {
+                    return `/${x}`
+                })).join("")
+            }
+            catch{
+                path=z.request?.url
+            }
             return `##### **${method}** ${name}
 
 \`${path}\`

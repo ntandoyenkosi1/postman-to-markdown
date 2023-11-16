@@ -20,7 +20,7 @@ This Node.js project allows you to convert a Postman JSON file to markdown forma
 
 ## Supported JSON Versions
 
-The application currently supports Postman JSON version 2.1.
+This application now supports all Postman JSON export versions.
 
 ### Future Support
 
