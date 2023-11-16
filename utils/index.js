@@ -40,5 +40,4 @@ ${y}`
     })).join("")}`
     return finalFile
 }
-//fs.writeFileSync("test.md", finalFile)
 module.exports = { convertJSONtoMarkDown }
