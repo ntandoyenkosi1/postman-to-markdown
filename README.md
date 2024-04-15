@@ -1,4 +1,4 @@
-# Postman JSON to Markdown Converter
+# POSTMAN JSON to Markdown Converter
 
 ## Overview
 
